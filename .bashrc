@@ -145,7 +145,8 @@ export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1
 
 # exports
 
-EDITOR='/usr/bin/nvim'
+EDITOR="/usr/bin/nvim"
+XDG_CONFIG_HOME="$HOME/.config"
 
 # aliases
 t () { trans "$@" | less -R; }
