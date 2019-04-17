@@ -149,4 +149,5 @@ EDITOR="/usr/bin/nvim"
 XDG_CONFIG_HOME="$HOME/.config"
 
 # aliases
-t () { trans "$@" | less -R; }
+t () { trans "$@" | less -R ; }
+alias y=yaourt
