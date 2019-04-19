@@ -84,8 +84,9 @@ set pastetoggle=<F2>
 map <leader>ini :tabnew $MYVIMRC<CR>
 " stdpath('config')
 autocmd bufwritepost $MYVIMRC source $MYVIMRC
-
 map <leader>, :source $MYVIMRC<CR>
+
+map <leader>n :noh<CR>
 
 tnoremap <Esc> <C-\><C-n>
 
@@ -124,6 +125,7 @@ cmap <silent> <C-F> <C-^>
 imap <silent> <C-F> <C-^>
 nmap <silent> <C-F> a<C-^>
 vmap <silent> <C-F> <Esc>a<C-^>
+
 map <leader>ini :tabnew $MYVIMRC<CR>
 fu! MyTabLabel(n)
 let buflist = tabpagebuflist(a:n)

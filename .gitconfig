@@ -3,6 +3,7 @@
 	name = Sergey Podkovyrin
 [core]
 	quotePath = false
+	excludesfile = /home/sergey/.config/git/ignore
 [merge]
   tool = vimdiff
 [mergetool]
